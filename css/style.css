@@ -1,0 +1,535 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #21243d;
+}
+
+.mainmenu ul {
+
+    margin-left: 150px;
+}
+
+.mainmenu ul li {
+    padding: 0 16px;
+}
+
+.navbar a {
+    color: #fff;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    color: #fff;
+}
+
+.search i {
+    color: #fff;
+}
+
+.banner {
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 88vh;
+    position: relative;
+}
+
+.banner-text {
+
+    position: absolute;
+
+    left: 10%;
+
+    top: 20%;
+}
+
+.banner-text h1 {
+
+    color: #fff;
+
+    font-size: 117px;
+
+    font-weight: 600;
+}
+
+.banner-text p {
+
+    color: #fff;
+
+    width: 480px;
+
+    padding-top: 10px;
+}
+
+.btn {
+
+    margin-top: 22px;
+
+    font-size: 16px;
+
+    font-weight: 500;
+
+    padding: 7px 45px;
+
+    border-radius: 20px;
+    background-color: #21243d;
+    border-color: #21243d;
+}
+
+.btn:hover {
+    background-color: #21243d;
+    border-color: #fff;
+}
+
+.populer {
+    background-image: url(../images/4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.populartext h1 {
+
+    color: #fff;
+
+    font-size: 50px;
+
+    font-weight: 600;
+
+    padding-top: 18px;
+}
+
+.populartext p {
+
+    color: #fff;
+
+    font-size: 17px;
+
+    padding-top: 10px;
+}
+
+.images {
+    width: 231px;
+    margin: auto;
+}
+
+.images img {}
+
+.p-text h3 {
+
+    color: #fff;
+
+    text-align: center;
+
+    padding-top: 34px;
+
+    font-size: 23px;
+}
+
+.p-text p {
+
+    color: #fff;
+
+    text-align: center;
+}
+
+.part-2 {
+    background-image: url(../images/5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.imagesp {
+
+    position: absolute;
+
+    top: 25%;
+}
+
+.ptitle {
+
+    position: absolute;
+
+    top: 24%;
+
+    left: 53%;
+}
+
+.ptitle h1 {
+
+    font-size: 79px;
+
+    font-weight: 500;
+
+    padding-bottom: 28px;
+}
+
+.ptitle p {
+
+    font-size: 24px;
+
+    padding-bottom: 23px;
+}
+
+.statistics {
+    background-image: url(../images/6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+
+.textcircle {
+    background-color:
+        transparent;
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    position: relative;
+}
+
+.s-text {
+    margin: auto;
+}
+
+.text {
+
+    position: absolute;
+
+    left: 25%;
+
+    top: 20%;
+
+    text-align: center;
+}
+
+.text h1 {
+
+    color: #fff;
+
+    font-size: 70px;
+
+    font-weight: 500;
+}
+
+.text h2 {
+
+    color: #fff;
+
+    font-size: 46px;
+
+    font-weight: 500;
+}
+
+
+.title-2 {
+    background-image: url(../images/7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.imagestext {
+
+    position: absolute;
+
+    top: 22%;
+
+    left: 67%;
+
+    margin-right: 65px;
+}
+
+.txtitle {
+
+    position: absolute;
+
+    top: 24%;
+}
+
+.txtitle h1 {
+
+    font-size: 79px;
+
+    font-weight: 500;
+
+    padding-bottom: 28px;
+}
+
+.txtitle p {
+
+    font-size: 24px;
+
+    padding-bottom: 23px;
+
+    width: 42%;
+}
+
+.team {
+    background-image: url(../images/9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.team::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #0d141e;
+    opacity: .9;
+}
+
+.teamalign {
+    padding-top: 150px;
+    padding-bottom: 60px;
+}
+
+.teamcontent {
+    z-index: 999;
+}
+
+.imground {}
+
+.teamcontent p {
+
+    color: #fff;
+
+    padding-top: 25px;
+
+    font-size: 30px;
+}
+
+.teamcontent h1 {
+
+    padding-top: 6px;
+
+    color: #fff;
+
+    font-size: 33px;
+
+    font-weight: 500;
+}
+
+.subscribe {
+    background-image: url(../images/subsc.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.maincontact {
+
+    padding-top: 111px;
+}
+
+.contacttext {}
+
+.contacttext h1 {
+
+    color: #21243d;
+
+    font-size: 50px;
+
+    font-weight: 600;
+
+    padding-top: 25px;
+}
+
+.contacttext p {
+
+    font-size: 25px;
+
+    padding-top: 30px;
+}
+
+.contact {
+
+    padding-top: 48px;
+
+    position: relative;
+}
+
+.contact form {}
+
+.contact form input {
+
+    width: 70%;
+
+    padding: 8px 10px;
+
+    border: none;
+
+    outline: none;
+
+    border-radius: 22px;
+}
+
+.buttonmain {
+
+    position: absolute;
+
+    left: 68%;
+
+    top: 55%;
+}
+
+.buttonmain button {
+    padding: 8px 37px;
+    border: none;
+    border-radius: 22px;
+    background-color: #21243d;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.footer{
+    background-color: #111;
+    min-height: 71vh;
+    padding-top: 156px;
+}
+
+.title{
+
+padding-left: 46px;
+}
+.title h3{
+
+color: #fff;
+
+font-size: 22px;
+
+padding-bottom: 12px;
+}
+.title p{
+
+color: #fff;
+
+width: 302px;
+
+padding-bottom: 11px;
+}
+
+.social{
+
+}
+.social ul {
+    
+list-style: none;
+    
+display: flex;
+}
+.social ul li{
+    
+margin: 0 12px;
+    
+color: #000;
+    
+border: 1px solid #fff;
+    
+background: #fff;
+    
+height: 31px;
+    
+width: 31px;
+    
+border-radius: 50%;
+    
+line-height: 31px;
+    
+padding-left: 8px;
+}
+
+.about h2{
+    color: #fff;
+    font-size: 22px;
+    padding-bottom: 12px;
+    padding-left: 32px;
+}
+
+.about ul{
+    
+list-style: none;
+}
+
+.about ul li{
+    
+text-decoration: none;
+    
+padding: 2px 0;
+}
+
+.about ul li a{
+    
+color: #fff;
+    
+text-decoration: none;
+}
+.service h2{
+    color: #fff;
+    font-size: 22px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+}
+.service ul{
+    
+list-style: none;
+}
+
+.service ul li{
+    
+text-decoration: none;
+    
+padding: 2px 0;
+}
+.service ul li a{
+    
+color: #fff;
+    
+text-decoration: none;
+}
+
+.others h2{
+    color: #fff;
+    font-size: 22px;
+    padding-bottom: 12px;
+    padding-left: 28px;
+}
+.others ul{
+    
+list-style: none;
+}
+
+.others ul li{
+    
+text-decoration: none;
+    
+padding: 2px 0;
+}
+.others ul li a{
+    
+color: #fff;
+    
+text-decoration: none;
+}
